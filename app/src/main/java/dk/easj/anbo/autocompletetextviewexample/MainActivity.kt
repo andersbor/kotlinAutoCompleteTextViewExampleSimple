@@ -42,7 +42,7 @@ class MainActivity : AppCompatActivity() {
                 binding.fishAutoCompleteTextView.error = "No fish!"
                 return@setOnClickListener
             }
-            binding.messageTextView.text = "You caught $fish"
+            binding.messageTextView.text = "You caught a $fish"
         }
     }
 }
